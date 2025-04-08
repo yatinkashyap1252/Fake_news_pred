@@ -3,6 +3,4 @@ scikit-learn
 pandas
 nltk
 joblib
-import nltk
-nltk.download('stopwords')
 gunicorn

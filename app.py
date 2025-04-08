@@ -4,6 +4,9 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
+import nltk
+nltk.download('stopwords')  # ✅ Put it here, one-time download
+
 # Load model and vectorizer
 print("🔄 Loading model and vectorizer...")
 model = joblib.load("fake_news_model.pkl")
